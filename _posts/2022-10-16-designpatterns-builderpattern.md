@@ -1,7 +1,7 @@
 ---
 title: Using Builder Pattern to avoid multiple constructors
 date: 2022-10-16 12:00:00
-categories: [Tech Blogs, Design Patterns]
+categories: [Tech, Design Patterns]
 tags: [designpatterns, programming, bestpractices, java]
 ---
 
