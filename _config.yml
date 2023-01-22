@@ -21,7 +21,7 @@ timezone: Asia/Kolkata
 
 title: Aditya Mahajan                          # the main title
 
-tagline: Welcome to my personal space   # it will display as the sub-title
+tagline: Welcome to my space! Here I keep & share my notes, knowledege, thoughts and ideas  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Aditya Mahajan's personal space for blogging ideas
@@ -55,7 +55,7 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: 'G-5NCEG4X2RN'                # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -88,7 +88,7 @@ avatar: https://avatars.githubusercontent.com/u/52600486?v=4
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: giscus         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -98,11 +98,11 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:              # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping:           # optional, default to 'pathname'
+    repo: adityam31/adityam31.github.io           # <gh-username>/<repo>
+    repo_id: 52600486
+    category: General
+    category_id: DIC_kwDOGvdCr84CTvV2
+    mapping: <title>          # optional, default to 'pathname'
     input_position:    # optional, default to 'bottom'
     lang:              # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
